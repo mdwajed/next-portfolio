@@ -17,9 +17,9 @@ const Homepage = () => {
           <Image src="/hero.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-3 md:gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-2xl md:text-6xl font-bold">
             Crafting Digital Experiences, Designing Tomorrow.
           </h1>
           {/* DESC */}
@@ -30,11 +30,11 @@ const Homepage = () => {
             commitment to excellence.
           </p>
           {/* BUTTONS */}
-          <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+          <div className="w-full flex gap-4 mb-6">
+            <button className="p-2 md:p-4 rounded-lg ring-1 ring-black bg-black text-white">
               View My Work
             </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            <button className="p-2 md:p-4 rounded-lg ring-1 ring-black">
               Contact Me
             </button>
           </div>

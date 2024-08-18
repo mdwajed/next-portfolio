@@ -8,8 +8,8 @@ import NavLink from "./NavLink";
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/contact", title: "Contact" },
   { url: "/portfolio", title: "Portfolio" },
+  { url: "/contact", title: "Contact" },
 ];
 const Navbar = () => {
   const [open, setOpen] = useState(false);
